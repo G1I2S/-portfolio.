@@ -85,7 +85,7 @@ a:hover{text-decoration:underline;}
     max-height:0; overflow:hidden;
     transition:max-height 0.25s ease;
   }
-  .nav-links.open{max-height:300px;}
+  .nav-links.open{max-height:400px;}
   .nav-links li{border-top:1px solid var(--border);}
   .nav-links a{display:block; padding:14px 24px;}
   .nav-toggle{display:block;}
@@ -276,7 +276,6 @@ h2{
 }
 .about-text p{color:var(--text-dim); margin:0 0 16px; max-width:62ch;}
 .about-text strong{color:var(--text); font-weight:600;}
-.about-tags{display:flex; flex-wrap:wrap; gap:8px; margin-top:18px;}
 .tag{
   font-family:'JetBrains Mono', monospace;
   font-size:0.78rem;
@@ -376,6 +375,7 @@ h2{
 }
 .project-link::after{content:'→'; transition:transform 0.15s ease;}
 .project-link:hover::after{transform:translateX(3px);}
+.project-links{display:flex; flex-wrap:wrap; gap:16px;}
 
 .project-link-disabled{
   font-family:'JetBrains Mono', monospace;

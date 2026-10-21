@@ -21,7 +21,7 @@ filterBtns.forEach(btn => {
     btn.classList.add('active');
     const filter = btn.dataset.filter;
     cards.forEach(card => {
-      const tags = card.dataset.tags;
+      const tags = card.dataset.tags.split(' '); // "react backend" → ["react", "backend"]
       const show = filter === 'all' || tags.includes(filter);
       card.style.display = show ? '' : 'none';
     });
