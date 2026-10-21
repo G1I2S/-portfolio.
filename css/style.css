@@ -376,6 +376,7 @@ h2{
 }
 .project-link::after{content:'→'; transition:transform 0.15s ease;}
 .project-link:hover::after{transform:translateX(3px);}
+.project-links{display:flex; flex-wrap:wrap; gap:16px;}
 
 .project-link-disabled{
   font-family:'JetBrains Mono', monospace;
