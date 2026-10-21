@@ -85,7 +85,7 @@ a:hover{text-decoration:underline;}
     max-height:0; overflow:hidden;
     transition:max-height 0.25s ease;
   }
-  .nav-links.open{max-height:300px;}
+  .nav-links.open{max-height:400px;}
   .nav-links li{border-top:1px solid var(--border);}
   .nav-links a{display:block; padding:14px 24px;}
   .nav-toggle{display:block;}
