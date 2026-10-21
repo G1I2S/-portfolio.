@@ -276,7 +276,6 @@ h2{
 }
 .about-text p{color:var(--text-dim); margin:0 0 16px; max-width:62ch;}
 .about-text strong{color:var(--text); font-weight:600;}
-.about-tags{display:flex; flex-wrap:wrap; gap:8px; margin-top:18px;}
 .tag{
   font-family:'JetBrains Mono', monospace;
   font-size:0.78rem;
